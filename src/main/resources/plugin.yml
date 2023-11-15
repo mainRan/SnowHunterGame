@@ -1,3 +1,10 @@
 name: SnowHunterGame
 version: '${project.version}'
 main: me.terramain.snowhuntergame.Main
+commands:
+  snowhuntergame:
+    alias:
+      - snowgame
+      - shgame
+      - snowhunter
+    description: main command
